@@ -1,0 +1,44 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: #da8a23;
+    min-height: 50vh;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.content {
+  padding: 0 50px;
+}
+
+
+.benefits {
+  padding-top: 30px;
+}
+
+.benefits-content {
+  display: flex;
+  margin-top:30px;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.benefits-card {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width:200px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.benefits-title {
+    margin-bottom: 20px;
+}
